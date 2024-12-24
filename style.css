@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", serif;
+}
+
+.header-section{
+    background-image: url('img/best-delicious-food-wallpaper-preview\ 1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
