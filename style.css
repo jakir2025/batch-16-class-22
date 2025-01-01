@@ -38,3 +38,68 @@
 .btn-custom:hover{
     background-color: blue;
 }
+.feature-section{
+    padding: 20px 0px;
+    
+}
+.feature-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+.feature-card{
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    box-shadow: -19px 17px 7px 4px rgba(75, 113, 219, 0.5);
+    margin-bottom: 25px;
+    transition: transform 0.5c ease
+}
+.feature-card:hover{
+    transform: translate(10px)
+}
+.feature-card img{
+    width: 70px;
+}
+
+.feature-card h5{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-card p{
+    font-size: 1.3rem;
+}
+
+
+.reveiw-section{
+    padding: 20px 0px;
+}
+.reveiw-section h2{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.review-card{
+    padding: 20px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    box-shadow: 20px 16px 8px 6px rgba(71, 142, 172, 0.5);
+    margin-bottom: 20px;
+    transition: transform 0.5c ease;
+}
+.review-card:hover{
+    transform:translate(-10px)
+}
+.review-card img{
+    border-radius: 50%;
+}
+.review-card h5{
+    text-align: center;
+    font-weight: 600;
+}
+.review-card p{
+    text-align: center;
+}
+.star-review{
+    text-align: center;
+}
