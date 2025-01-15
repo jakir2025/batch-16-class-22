@@ -11,22 +11,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <title>Landing Page Design</title>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-    <header class="header-section">
-        <div class="container">
-             <div class="row vh-100">
-                <div class="col-md-9 hero-content banner-culumn border border-light text-white text-center m-auto p-4">
+    <!-- <header class="header-section">
+        <div class="hero-contant">
+            
+                <div >
+                    <img src="img/best-delicious-food-wallpaper-preview 1920x1080_1920x1080.jpg" alt="">
                     <h1>All Time Honeycomb</h1>
                     <p>Lots of delicious food. Once you eat it, you will be looking for it for the rest of your life.</p>
                     <a href="#checkout" class="btn-custom">buy new</a>
                 </div>
-             </div>
+        </div>
+    </header> -->
+
+    <header class="header-section">
+                  <img src="img/best-delicious-food-wallpaper-preview 1920x1080_1920x1080.jpg" alt="" class="img-responsive">
+        <div class="hero-contant">
+                  <div >
+                    <h1>All Time Honeycomb</h1>
+                    <p>Lots of delicious food. Once you eat it, you will be looking for it for the rest of your life.</p>
+                    <a href="#checkout" class="btn-custom">buy new</a>
+                </div>
         </div>
     </header>
+
+
+
 
     <!--Product Discription section -->
 
@@ -85,10 +99,11 @@
         </div>
     </section>
 
-    <hr>
+    
     <!-- customer Review -->
     <section class="reveiw-section">
         <div class="container">
+            <hr>
             <h2 >What our customers Review</h2>
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4">
@@ -194,40 +209,54 @@
         </div>
     </section>
 
+    
+
     <!-- Product Checkour Form -->
 
-    <section class="mt-5" id="checkout">
+    <section class="checkout-section" id="checkout">
           <div class="container">
+              <hr>
             <h2>Chechout</h2>
-            <form action="" method="get">
+            <form action="" method="get" class="checkout-form">
                    <div class="mb-3">
-                    <label for="" class="form-lebal">Full Name Name*</label>
-                    <input type="text" class="form-control" name="" id="" value="" placeholder="Your Full name*" required>
+                    <label for="" class="form-lebal">Full Name*</label>
+                    <input type="text" class="form-control custom-input" name="" id="" value="" placeholder="Your Full name*" required>
                    </div>
                    <div class="mb-3">
                     <label for="" class="form-lebal">Phone Number*</label>
-                    <input type="text" class="form-control" name="" id="" value="" placeholder="Your Phone Number*" required>
+                    <input type="text" class="form-control custom-input" name="" id="" value="" placeholder="Your Phone Number*" required>
                    </div>
+                   
                    <div class="mb-3">
                     <label for="" class="form-lebal">Address*</label>
-                    <textarea name="" class="form-control" id="" cols="30" rows="5"></textarea>
+                    <textarea name="" class="form-control custom-input" id="" cols="30" rows="5"></textarea>
                    </div>
+
+                   <div class="mb-3">
+                    <label for="" class="form-lebal">Area*</label>
+                    <select name="" id="" class="form-control custom-input">
+                        <option value="" selected disabled>select area</option>
+                        <option value="">in-site Dhaka-80tk</option>
+                        <option value="">out-site Dhaka-160tk</option>
+                    </select>
+                   </div>
+
                    <button type="button" class="btn btn-info">Confirm Order</button>
             </form>
           </div>
     </section>
 
     <!-- footer -->
-     <footer>
-        <div>
-            <div>
-                <div>
+     <footer class="footer-section">
+        <div class="container">
+            <div class="footer-contant">
+                <div class="footer-img">
                     <img src="https://placehold.co/150x60" alt="">
                 </div>
-                <div>
-                    <a href="">Facebook</a>
-                    <a href="">Twiter</a>
-                    <a href="">youtube</a>
+                <div class="social-icons">
+                    <a  href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
                 </div>
                 <p>&copy 2024 langdingpage. All rights reserved</p>
             </div>
