@@ -55,8 +55,54 @@
     transition: background-color 0.10c ease;
 }
 .btn-custom:hover{
-    background-color: blue;
+    background-color: blue; 
 }
+/* responsive hrader section  start*/
+
+@media screen and (max-width: 430px) {
+    .hero-contant h1{
+        font-size: 2rem;
+    }
+    .hero-contant p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .hero-contant h1{
+        font-size: 1.50rem;
+    }
+    .hero-contant p{
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .btn-custom{
+        padding: 10px 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .btn-custom{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:314px) {
+    .btn-custom{
+        padding: 7px 14px;
+    }
+}
+@media screen and (max-width:303px) {
+    .btn-custom{
+        margin-bottom: 5px;
+        padding: 6px 12px;
+    }
+}
+
+/* responsive hrader section  End*/
 
 
 
